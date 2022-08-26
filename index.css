@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+}
+body{
+    background-image: url(img1.JPG);
+    background-repeat: repeat;
+    background-size: cover;
+}
+section{
+    margin-top: 210px;
+}
+#centersec {
+    margin: auto;
+    width: 80%;
+    /* border: 1px red solid; */
+    min-height: 50vh;
+    background-color: white;
+}
+h1{
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-family: 500;
+}
+#wholebox{
+    padding-left: 100px;
+}
+#headdiv{
+    width: 450px;
+}
+#name{
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.navbar-toggler{
+    margin-top: -100px;
+    margin-left: -100px;
+}
+#navbarNav{
+    margin-left: 200px;
+}
+li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+#bodydiv{
+    display: flex;
+}
+img{
+    height: 290px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+#info {
+    margin-top: 150px;
+    margin-left: 230px;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-family: 500;
+}
+h3{
+    /* font-size: 30px; */
+    font-family: "Ubuntu", sans-serif;
+    font-family: 300;
+    padding: 10px;
+
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
