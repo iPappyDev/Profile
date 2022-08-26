@@ -76,3 +76,35 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 5px;
 }
+
+@media all and (max-width : 320px) {
+    section{
+        margin-top: 20px;
+    }
+    #centersec {
+        margin: auto;
+        width: 80%;
+        height: 95vh;
+    }
+    #bodydiv{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    img{
+        height: 170px;
+        width: 250px;
+        border-radius: 50%;
+        /* margin-top: 20px; */
+        margin-left: -20px;
+    }
+    #info {
+        margin-top: 30px;
+        margin-left: 20px;
+        text-align: center;
+        width: 200px;
+    }
+    #navbarNav{
+        margin-top: 60px;
+        margin-left: -65px;
+    }
+}
